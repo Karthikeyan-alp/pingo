@@ -1,0 +1,61 @@
+name: pingo
+description: "E-commerce platform"
+
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  animated_text_kit: ^4.2.2
+  shared_preferences: ^2.2.0
+  http: ^0.13.0
+  internet_connection_checker: ^1.0.0+1
+  cached_network_image: ^3.2.3
+  firebase_core: ^3.2.0
+  firebase_remote_config: ^5.0.3
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.1.0
+  material_dialogs: ^1.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+     - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+
+  fonts:
+     - family: Poppins
+       fonts:
+         - asset: assets/fonts/Poppins-Regular.ttf
+         - asset: assets/fonts/Poppins-Italic.ttf
+           style: italic
+         - asset: assets/fonts/Poppins-Light.ttf
+         - asset: assets/fonts/Poppins-SemiBold.ttf
+           weight: 400
+
